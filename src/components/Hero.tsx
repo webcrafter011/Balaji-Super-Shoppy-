@@ -1,11 +1,12 @@
 import React from 'react';
+import inside from "../assets/shop/inside.jpg"
 
 const Hero: React.FC = () => {
   return (
     <section className="relative">
       <div className="bg-cover bg-center h-[50vh] md:h-[60vh]" 
            style={{ 
-             backgroundImage: `url('https://images.pexels.com/photos/3962285/pexels-photo-3962285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
+             backgroundImage: `url('${inside}')`,
              backgroundBlendMode: 'overlay',
              backgroundColor: 'rgba(0,0,0,0.4)'
            }}>
